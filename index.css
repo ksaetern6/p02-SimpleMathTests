@@ -1,0 +1,58 @@
+/* Author: Ken Saetern */
+body{
+  margin-left: 35px;
+  margin-top: 35px;
+  background-image: url(http://img02.deviantart.net/c2ad/i/2012/303/7/1/simple_gradient_by_gominhos-d5jh3nv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+li {
+  display:inline-block;
+  text-decoration:none;
+}
+.alert{
+  width: 1500px;
+}
+#inputalert{
+  width: 1000px;
+}
+label{
+  font-size: 20px;
+  margin-top: 4px;
+  line-height: 30px;
+  font-family: Montserrat;
+
+}
+#questions{
+  width:500px;
+}
+/*hidden text*/
+span.hide{
+  margin-left: 5px;
+  opacity: 0.0;
+}
+span.show{
+  margin-left: 5px;
+  opacity: 1.0;
+  color: darkblue;
+}
+/*edit links*/
+a{
+  margin-bottom: 20px;
+  margin-right: 201px;
+  font-size: 30px;
+  color: darkred;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+a:visted{
+  text-decoration: none;
+  color: red;
+}
+/*edits next page for index.html*/
+#page1{
+  margin-left: 400px;
+}
